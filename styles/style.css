@@ -1,0 +1,105 @@
+/* ADD FONTS TO PROJECT */
+@font-face {
+    font-family: Roboto;
+    src: url("../src/fonts/Roboto-Bold.ttf") format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../src/fonts/Roboto-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 120px;
+    background-color: #0a3c52;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 120px;
+    color: #ffffff;
+    background-image: url(../src/images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 12px 3px #000000;
+}
+
+div {
+    margin: 20px;
+    text-align: center;
+    min-height: calc(100vh - (120px + 60px));
+}
+nav{
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #0a3c52;
+    max-width: 320px;
+    vertical-align: top;
+    text-align: left;
+    box-shadow: 0px 0px 12px 3px #000000;
+}
+a {
+    display: block;
+    margin: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+a:nth-of-type(2n) {
+    font-style: italic;
+}
+a:hover {
+    color: #f6ff00;
+}
+main{
+    display: inline-block;
+    box-sizing: border-box;
+    max-width: 680px;
+    margin-left: 30px;
+    vertical-align: top;
+    text-align: left;
+}
+
+p {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+p:first-child {
+    background-color: #0a3c5273;
+}
+
+p:last-child {
+    background-color: #0a3c5273;
+}
+
+.my-class {
+    background-color: #45911273;
+}
+
+p:hover {
+    text-shadow: 1px 1px #f6ff00;
+}
+
+footer {
+    height: 60px;
+    background-color: #0a3c52;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    color: #ffffff;
+    background-image: url(../src/images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 12px 3px #000000;
+}
